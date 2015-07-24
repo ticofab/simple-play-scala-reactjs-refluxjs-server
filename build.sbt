@@ -10,7 +10,8 @@ libraryDependencies ++= Seq(
   ws,
   specs2 % Test,
   "org.webjars" %% "webjars-play" % "2.4.0-1",
-  "org.webjars" % "react" % "0.13.3"
+  "org.webjars" % "react" % "0.13.3",
+  "org.webjars" % "refluxjs" % "0.2.5"
 )
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
