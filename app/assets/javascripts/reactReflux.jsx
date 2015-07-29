@@ -1,8 +1,8 @@
 var Info = React.createClass({
-  mixins: [Reflux.connect(ClickedStore, 'clickedStore')],
+  mixins: [Reflux.connect(ClickedStore, 'clickedStoreHappening')],
   render: function() {
     return (
-      <h3>Last button clicked: {this.state.clickedStore}</h3>
+      <h3>Last button clicked: {this.state.clickedStoreHappening}</h3>
     );
   }
 });
